@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F54431D21470FDA0065A0D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54431C21470FDA0065A0D3 /* AppDelegate.m */; };
+		2F54432021470FDA0065A0D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54431F21470FDA0065A0D3 /* ViewController.m */; };
+		2F54432321470FDA0065A0D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F54432121470FDA0065A0D3 /* Main.storyboard */; };
+		2F54432521470FDB0065A0D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F54432421470FDB0065A0D3 /* Assets.xcassets */; };
+		2F54432821470FDB0065A0D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F54432621470FDB0065A0D3 /* LaunchScreen.storyboard */; };
+		2F54432B21470FDB0065A0D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54432A21470FDB0065A0D3 /* main.m */; };
+		2F54433521470FDB0065A0D3 /* spotifyTinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F54433421470FDB0065A0D3 /* spotifyTinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F54433121470FDB0065A0D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F54431021470FDA0065A0D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F54431721470FDA0065A0D3;
+			remoteInfo = spotifyTinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F54431821470FDA0065A0D3 /* spotifyTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotifyTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F54431B21470FDA0065A0D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F54431C21470FDA0065A0D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F54431E21470FDA0065A0D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F54431F21470FDA0065A0D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F54432221470FDA0065A0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F54432421470FDB0065A0D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F54432721470FDB0065A0D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F54432921470FDB0065A0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F54432A21470FDB0065A0D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F54433021470FDB0065A0D3 /* spotifyTinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotifyTinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F54433421470FDB0065A0D3 /* spotifyTinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spotifyTinderTests.m; sourceTree = "<group>"; };
+		2F54433621470FDB0065A0D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F54431521470FDA0065A0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F54432D21470FDB0065A0D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F54430F21470FDA0065A0D3 = {
+			isa = PBXGroup;
+			children = (
+				2F54431A21470FDA0065A0D3 /* spotifyTinder */,
+				2F54433321470FDB0065A0D3 /* spotifyTinderTests */,
+				2F54431921470FDA0065A0D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F54431921470FDA0065A0D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F54431821470FDA0065A0D3 /* spotifyTinder.app */,
+				2F54433021470FDB0065A0D3 /* spotifyTinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F54431A21470FDA0065A0D3 /* spotifyTinder */ = {
+			isa = PBXGroup;
+			children = (
+				2F54431B21470FDA0065A0D3 /* AppDelegate.h */,
+				2F54431C21470FDA0065A0D3 /* AppDelegate.m */,
+				2F54431E21470FDA0065A0D3 /* ViewController.h */,
+				2F54431F21470FDA0065A0D3 /* ViewController.m */,
+				2F54432121470FDA0065A0D3 /* Main.storyboard */,
+				2F54432421470FDB0065A0D3 /* Assets.xcassets */,
+				2F54432621470FDB0065A0D3 /* LaunchScreen.storyboard */,
+				2F54432921470FDB0065A0D3 /* Info.plist */,
+				2F54432A21470FDB0065A0D3 /* main.m */,
+			);
+			path = spotifyTinder;
+			sourceTree = "<group>";
+		};
+		2F54433321470FDB0065A0D3 /* spotifyTinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F54433421470FDB0065A0D3 /* spotifyTinderTests.m */,
+				2F54433621470FDB0065A0D3 /* Info.plist */,
+			);
+			path = spotifyTinderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F54431721470FDA0065A0D3 /* spotifyTinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F54433921470FDB0065A0D3 /* Build configuration list for PBXNativeTarget "spotifyTinder" */;
+			buildPhases = (
+				2F54431421470FDA0065A0D3 /* Sources */,
+				2F54431521470FDA0065A0D3 /* Frameworks */,
+				2F54431621470FDA0065A0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spotifyTinder;
+			productName = spotifyTinder;
+			productReference = 2F54431821470FDA0065A0D3 /* spotifyTinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F54432F21470FDB0065A0D3 /* spotifyTinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F54433C21470FDB0065A0D3 /* Build configuration list for PBXNativeTarget "spotifyTinderTests" */;
+			buildPhases = (
+				2F54432C21470FDB0065A0D3 /* Sources */,
+				2F54432D21470FDB0065A0D3 /* Frameworks */,
+				2F54432E21470FDB0065A0D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F54433221470FDB0065A0D3 /* PBXTargetDependency */,
+			);
+			name = spotifyTinderTests;
+			productName = spotifyTinderTests;
+			productReference = 2F54433021470FDB0065A0D3 /* spotifyTinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F54431021470FDA0065A0D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Anggelo Urso Goddard";
+				TargetAttributes = {
+					2F54431721470FDA0065A0D3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					2F54432F21470FDB0065A0D3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 2F54431721470FDA0065A0D3;
+					};
+				};
+			};
+			buildConfigurationList = 2F54431321470FDA0065A0D3 /* Build configuration list for PBXProject "spotifyTinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F54430F21470FDA0065A0D3;
+			productRefGroup = 2F54431921470FDA0065A0D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F54431721470FDA0065A0D3 /* spotifyTinder */,
+				2F54432F21470FDB0065A0D3 /* spotifyTinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F54431621470FDA0065A0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F54432821470FDB0065A0D3 /* LaunchScreen.storyboard in Resources */,
+				2F54432521470FDB0065A0D3 /* Assets.xcassets in Resources */,
+				2F54432321470FDA0065A0D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F54432E21470FDB0065A0D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F54431421470FDA0065A0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F54432021470FDA0065A0D3 /* ViewController.m in Sources */,
+				2F54432B21470FDB0065A0D3 /* main.m in Sources */,
+				2F54431D21470FDA0065A0D3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F54432C21470FDB0065A0D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F54433521470FDB0065A0D3 /* spotifyTinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F54433221470FDB0065A0D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F54431721470FDA0065A0D3 /* spotifyTinder */;
+			targetProxy = 2F54433121470FDB0065A0D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F54432121470FDA0065A0D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F54432221470FDA0065A0D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F54432621470FDB0065A0D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F54432721470FDB0065A0D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F54433721470FDB0065A0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F54433821470FDB0065A0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F54433A21470FDB0065A0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotifyTinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.spotifyTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F54433B21470FDB0065A0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotifyTinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.spotifyTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F54433D21470FDB0065A0D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotifyTinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.spotifyTinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spotifyTinder.app/spotifyTinder";
+			};
+			name = Debug;
+		};
+		2F54433E21470FDB0065A0D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = spotifyTinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.spotifyTinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spotifyTinder.app/spotifyTinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F54431321470FDA0065A0D3 /* Build configuration list for PBXProject "spotifyTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F54433721470FDB0065A0D3 /* Debug */,
+				2F54433821470FDB0065A0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F54433921470FDB0065A0D3 /* Build configuration list for PBXNativeTarget "spotifyTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F54433A21470FDB0065A0D3 /* Debug */,
+				2F54433B21470FDB0065A0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F54433C21470FDB0065A0D3 /* Build configuration list for PBXNativeTarget "spotifyTinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F54433D21470FDB0065A0D3 /* Debug */,
+				2F54433E21470FDB0065A0D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F54431021470FDA0065A0D3 /* Project object */;
+}
